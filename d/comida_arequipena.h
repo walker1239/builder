@@ -1,7 +1,7 @@
 #ifndef COMIDA_AREQUIPENA_H
 #define COMIDA_AREQUIPENA_H
-
-class Comida_arequipena
+#include "builder.h"
+class Comida_arequipena:public Builder
 {
 public:
     Comida_arequipena();

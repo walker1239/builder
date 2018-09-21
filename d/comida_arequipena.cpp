@@ -1,7 +1,8 @@
 #include "comida_arequipena.h"
 
-Comida_arequipena::comida_arequipena()
+Comida_arequipena::Comida_arequipena()
 {
+
 }
 
 Entrada *Comida_arequipena::getEntrada()
