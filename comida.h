@@ -1,6 +1,9 @@
 #ifndef COMIDA_H
 #define COMIDA_H
-
+#include "bebida.h"
+#include "postre.h"
+#include "principal.h"
+#include "entrada.h"
 class Comida
 {
 private:
@@ -17,6 +20,10 @@ public:
     void set_Principal(Principal *princi);
     void set_Bebida(Bebida *bebi);
     void set_Postre(Postre *postr);
+    Entrada* get_Entrada();
+    Principal* get_Principal();
+    Bebida* get_Bebida();
+    Postre* get_Postre();
 };
 
 #endif // COMIDA_H

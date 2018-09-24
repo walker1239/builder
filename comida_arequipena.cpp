@@ -2,24 +2,35 @@
 
 Comida_arequipena::Comida_arequipena()
 {
-
+    e=new Entrada();
+    p=new Principal();
+    b=new Bebida();
+    po=new Postre();
+    e->set_descripcion("Esta es la entrada de comida arequipena");
+    e->set_image("entrada1.png");
+    p->set_descripcion("Esta es la principal de comida arequipena");
+    p->set_image("principal1.png");
+    b->set_descripcion("Esta es la bebida de comida arequipena");
+    b->set_image("bebida1.png");
+    po->set_descripcion("Esta es el postre de comida arequipena");
+    po->set_image("postre1.png");
 }
 
 Entrada *Comida_arequipena::getEntrada()
 {
-    return new Entrada();
+    return e;
 }
 
 Principal *Comida_arequipena::getPrincipal()
 {
-    return new Principal();
+    return p;
 }
 Bebida *Comida_arequipena::getBebida()
 {
-    return new Bebida();
+    return b;
 }
 Postre *Comida_arequipena::getPostre()
 {
-    return new Postre();
+    return po;
 }
 

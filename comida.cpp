@@ -25,3 +25,19 @@ void Comida::set_Postre(Postre *postr)
 {
     pos=postr;
 }
+Entrada* Comida::get_Entrada()
+{
+    return e;
+}
+Principal* Comida::get_Principal()
+{
+    return pri;
+}
+Bebida* Comida::get_Bebida()
+{
+    return b;
+}
+Postre* Comida::get_Postre()
+{
+    return pos;
+}

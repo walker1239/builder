@@ -3,6 +3,11 @@
 #include "builder.h"
 class Comida_criolla:public Builder
 {
+private:
+    Entrada *e;
+    Principal *p;
+    Bebida *b;
+    Postre *po;
 public:
     Comida_criolla();
     ~Comida_criolla();

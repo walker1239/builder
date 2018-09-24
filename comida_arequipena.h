@@ -3,6 +3,11 @@
 #include "builder.h"
 class Comida_arequipena:public Builder
 {
+private:
+    Entrada *e;
+    Principal *p;
+    Bebida *b;
+    Postre *po;
 public:
     Comida_arequipena();
     Entrada *getEntrada();
